@@ -1,0 +1,1 @@
+SELECT content, name, type FROM files WHERE id = ?

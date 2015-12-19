@@ -1,0 +1,22 @@
+{
+	"database": {
+		"database": "testdb",
+		"host": "127.0.0.1",
+		"user": "root",
+		"password": "root"
+	},
+	"auth": {
+		"https": {
+			"username": "bar",
+			"password": "bar"
+		},
+		"http": {
+			"username": "foo",
+			"password": "foo"
+		}
+	},
+	"ports": {
+		"http": 80,
+		"https": 443
+	}
+}

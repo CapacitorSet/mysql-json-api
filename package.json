@@ -1,0 +1,21 @@
+{
+	"name": "node-scorekeeping-core",
+	"version": "0.0.0",
+	"homepage": "https://github.com/CapacitorSet/node-scorekeeping",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/CapacitorSet/node-scorekeeping.git"
+	},
+	"author": {
+		"name": "Capacitor Set",
+		"email": "capacitorset@users.noreply.github.com",
+		"url": "https://github.com/CapacitorSet"
+	},
+	"dependencies": {
+		"express": "*",
+		"mysql": "*",
+		"express-session": "*",
+		"body-parser": "*",
+		"http-auth": "*"
+	}
+}

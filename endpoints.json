@@ -1,0 +1,15 @@
+{
+	"/users": [
+		{
+			"method": "get",
+			"query": "users/get.sql"
+		}
+	],
+	"/file/:FileID": [
+		{
+			"method": "get",
+			"query": "file/get.sql",
+			"parameters": ["FileID"]
+		}
+	]
+}
