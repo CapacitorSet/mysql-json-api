@@ -34,16 +34,6 @@ app.https.use(bodyParser.urlencoded({ extended: true }));
 
 */
 
-["http", "https"].forEach(
-	protocol => app[protocol].use(
-		"/app/:nomeApp",
-		(req, res, next) => {
-			req.nomeApp = req.params.nomeApp;
-			next();
-		}
-	)
-);
-
 require("./lib/endpoints");
 
 var errHandler = require("./lib/errors");
