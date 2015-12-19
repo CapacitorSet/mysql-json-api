@@ -1,10 +1,10 @@
 {
-	"name": "node-scorekeeping-core",
+	"name": "mysql-json-api",
 	"version": "0.0.0",
-	"homepage": "https://github.com/CapacitorSet/node-scorekeeping",
+	"homepage": "https://github.com/CapacitorSet/mysql-json-api",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/CapacitorSet/node-scorekeeping.git"
+		"url": "git://github.com/CapacitorSet/mysql-json-api.git"
 	},
 	"author": {
 		"name": "Capacitor Set",
